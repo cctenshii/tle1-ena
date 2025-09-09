@@ -36,10 +36,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Create a Post</title>
 </head>
 <body>
 <h1>Create a Post</h1>
+<a class="back-button" href="social.php">↩</a>
 <form action="post.php" method="post" enctype="multipart/form-data">
     <input type="text" name="username" placeholder="Your username" required><br><br>
     <textarea name="caption" placeholder="Write a caption..." required></textarea><br><br>
