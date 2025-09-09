@@ -21,8 +21,15 @@
     </div>
 </header>
 <main>
-    <section>
-
+    <section class="category">
+        <div>
+            <a class="button" href="">Information</a>
+            <a class="button" href="">Personal Social</a>
+        </div>
+        <div>
+            <a class="button" href="">Media</a>
+            <a class="button" href="">Shopping</a>
+        </div>
     </section>
 </main>
 <footer>
