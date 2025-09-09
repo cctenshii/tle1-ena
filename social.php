@@ -32,11 +32,14 @@ $result = mysqli_query($db, $query);
 <main>
     <!-- Profile Section -->
     <section class="profile">
-        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div>
+            <a class="back-button" href="home.php">↩</a>
+        </div>
         <div class="profile-info">
             <h2>@zhiwen</h2>
             <p>Building cool projects ✨</p>
         </div>
+        <img src="images/cat-profile.jpg" alt="Profile Picture" class="profile-pic">
     </section>
 
     <!-- Feed Section -->

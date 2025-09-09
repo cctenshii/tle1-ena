@@ -74,9 +74,14 @@ footer {
 /* Personal Social Page CSS */
 .profile {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+    font-size: 2.5rem;
 }
 
 .profile-info p {
