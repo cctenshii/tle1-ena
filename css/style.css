@@ -2,8 +2,24 @@
     margin: 0;
 }
 
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 h1 {
+    font-family: "Audiowide", sans-serif;
     font-size: 5rem;
+}
+
+h2 {
+    font-family: "Audiowide", sans-serif;
+}
+
+h3 {
+    font-family: "Audiowide", sans-serif;
 }
 
 a {
@@ -18,10 +34,24 @@ header {
     padding: 5vh 0;
 }
 
+header p {
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vh 0;
+}
+
 header img {
     width: 20vw;
 }
 
+footer {
+    display: flex;
+    justify-self: center;
+    padding: 5vh 0;
+    font-family: "Audiowide", sans-serif;
+}
+
+/* Home page CSS */
 .category {
     display: flex;
     flex-direction: column;
@@ -41,8 +71,72 @@ header img {
     font-size: 1rem;
 }
 
-footer {
+/* Personal Social Page CSS */
+.profile {
     display: flex;
-    justify-self: center;
-    padding: 5vh 0;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-info p {
+    font-family: "Audiowide", sans-serif;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.feed {
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.post-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.post-body {
+    padding: 0.5rem 1rem;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #eee;
+}
+
+.like-btn, .comment-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1rem;
 }

@@ -75,11 +75,15 @@ if (isset($_POST['submit'])) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    
     <title>ENA</title>
 </head>
 <body>
 <header>
+    <p>Everything you need</p>
     <img src="images/Logo-ENA.jpg" alt="Logo ENA">
     <h1>ENA</h1>
     <div>
