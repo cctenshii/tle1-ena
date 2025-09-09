@@ -23,8 +23,6 @@ $result = mysqli_query($db, $query);
 </head>
 <body>
 <header>
-    <p>Everything you need</p>
-    <img src="images/Logo-ENA.jpg" alt="Logo ENA">
     <h1>ENA</h1>
     <div>
         <a class="button" href="logout.php">Logout</a>
