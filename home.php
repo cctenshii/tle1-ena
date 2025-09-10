@@ -27,12 +27,12 @@
 <main>
     <section class="category">
         <div>
-            <a class="button" href="">Settings</a>
+            <a class="button" href="settings.php">Settings</a>
             <a class="button" href="social.php">Personal Social</a>
         </div>
         <div>
-            <a class="button" href="">Media</a>
-            <a class="button" href="">Shopping</a>
+            <a class="button" href="media.php">Media</a>
+            <a class="button" href="shopping.php">Shopping</a>
         </div>
     </section>
 </main>
