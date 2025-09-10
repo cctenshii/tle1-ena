@@ -41,13 +41,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Create a Post</title>
 </head>
 <body>
-<h1>Create a Post</h1>
+<h2 class=" post-h2">Create a Post</h2>
 <a class="back-button" href="social.php">↩</a>
-<form action="post.php" method="post" enctype="multipart/form-data">
+<form class="post-form" action="post.php" method="post" enctype="multipart/form-data">
     <input type="text" name="username" placeholder="Your username" required><br><br>
     <textarea name="caption" placeholder="Write a caption..." required></textarea><br><br>
     <input type="file" name="image" accept="image/*"><br><br>
-    <button type="submit">Post</button>
+    <button class="post-button" type="submit">Post</button>
 </form>
 </body>
 </html>

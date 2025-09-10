@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
 
-<section class="section">
+<section class="register-section">
     <div class="container">
         <h2 class="title">Register With Phone Number</h2>
 
@@ -163,12 +163,12 @@ if (isset($_POST['submit'])) {
                 <div class="field">
                     <div class="field-label"></div>
                     <div class="field-body">
-                        <button class="button" type="submit" name="submit">
+                        <button class="register-button" type="submit" name="submit">
                             Register
                         </button>
                     </div>
                 </div>
-                <a class="button" href="index.php">&laquo; Go back</a>
+                <a href="index.php">&laquo; Go back</a>
 
             </form>
         </section>

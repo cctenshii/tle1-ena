@@ -27,7 +27,7 @@
 <main>
     <section class="category">
         <div>
-            <a class="button" href="">Information</a>
+            <a class="button" href="">Settings</a>
             <a class="button" href="social.php">Personal Social</a>
         </div>
         <div>

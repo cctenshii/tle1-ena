@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+body {
+    background-image: url("../images/LoginBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .audiowide-regular {
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
@@ -49,6 +55,33 @@ footer {
     justify-self: center;
     padding: 5vh 0;
     font-family: "Audiowide", sans-serif;
+}
+
+/*login page CSS*/
+
+form {
+    text-align: center;
+}
+
+/*register page CSS*/
+
+.register-section {
+    margin: 30vw;
+    height: auto;
+}
+
+.register-section h2 {
+    margin: 15vw 0;
+    border-bottom: 2px solid #7E7379;
+}
+
+.register-button {
+    background-color: #DCD8D5;
+    color: #7E7379;
+    border: none;
+    margin: 4vw;
+    padding: 2vw 4vw;
+    border-radius: 10px;
 }
 
 /* Home page CSS */
@@ -144,4 +177,35 @@ footer {
     cursor: pointer;
     margin-right: 1rem;
     font-size: 1rem;
+}
+
+/*post page CSS*/
+
+.post-h2 {
+    text-align: center;
+    margin-top: 40vw;
+}
+
+.post-form {
+    height: auto;
+}
+
+.post-button {
+    background-color: #DCD8D5;
+    color: #7E7379;
+    border: none;
+    margin: 4vw;
+    padding: 2vw 6vw;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.back-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
 }
